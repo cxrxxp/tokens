@@ -1,0 +1,61 @@
+{
+  "global": {
+    "base": {
+      "grey-100": {
+        "value": "#e6e6e6",
+        "type": "color"
+      },
+      "grey-200": {
+        "value": "#d0cfcf",
+        "type": "color"
+      },
+      "red-100": {
+        "value": "#eb8e8e",
+        "type": "color"
+      },
+      "red-200": {
+        "value": "#e03f3f",
+        "type": "color"
+      },
+      "blue-100": {
+        "value": "#768fe6",
+        "type": "color"
+      },
+      "blue-200": {
+        "value": "#3359e3",
+        "type": "color"
+      },
+      "green-100": {
+        "value": "#aee49b",
+        "type": "color"
+      },
+      "green-200": {
+        "value": "#89c673",
+        "type": "color"
+      }
+    },
+    "Especificos": {
+      "color-bg-btn-disable": {
+        "value": "{base.grey-100}",
+        "type": "color",
+        "description": "botones desactivados"
+      },
+      "color-btn-bg-hover": {
+        "value": "{base.blue-100}",
+        "type": "color",
+        "description": "cuando pasa por encima"
+      },
+      "color-btn-bg-default": {
+        "value": "{base.blue-200}",
+        "type": "color",
+        "description": "cuando clickas en el boton"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
